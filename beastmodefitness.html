@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./static/stylesheet.css">
+<!-- Google Fonts API -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand">
+<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- MY CSS-->
+  <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
+  <title>FITNESS</title>
+</head>
+<body onload="copyRight()">
+
+ <!--Home-->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+   <div id="title">
+     <p id="one"class="slam">Are</p>
+     <p id="two" class="slam">You</p>
+     <p id="three" class="slam">Ready?!?</p>
+     
+    <div id="ready-btn"> 
+    <a href="#home"><button>Yes</button></a>
+     <a href="#home"><button>NO</button></a>
+   <h1 id="title2">BEAST MODE!</h1>
+  </div>
+  </div>
+<!-- Navbar-->
+<nav id="navbar"class="navbar navbar-expand-lg navbar-dark bg-light" onload="hideNavBar()">
+  <a class="navbar-brand text-warning " href="#home">Beast Mode <br>Fitness</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active text-dark" href="./beastmodefitness.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active text-dark"href="#about">About</a>
+      <a class="nav-item nav-link active text-dark"href="#workouts">Workouts</a>
+      <a class="nav-item nav-link active text-dark" href="#testimonials">Testimonials</a>
+     </div>
+   </div>
+      <a href="#" class="mr-auto" id="darkBtn" onclick="darkModeFunction()">BEAST MODE</a>
+</nav>
+<!---End NavBar-->
+
+<div class="row">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <!-- Button that opens Modal -->
+      <li>
+        <button id="modalBtn" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">SUBSCRIBE!
+         </button>
+      </li>l                                                           
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="./static/images/man.jpg" alt="Image"> 
+      </div>
+      <div class="item">
+        <img src="./static/images/ropes.jpg" alt="Image" class="img-responsive">
+      </div>
+      <div class="item">
+        <img src="./static/images/beast.jpg"alt="Image" class="img-responsive">
+      </div>
+      <div class="item">
+        <img src="./static/images/rowmachine.jpg" alt="Image" class="img-responsive">
+      </div>
+      <div class="item">
+        <img src="./static/images/woman.jpg" alt="Image" class="img-responsive">
+      </div>
+      <div class="item">
+        <img src="./static/images/manrope.jpg" alt="Image" class="img-responsive">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container text-center" id="workouts">    
+  <h1>Workouts</h1><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="well">
+      <button class="btn btn-danger big3">Back</button><br>
+      <button class="btn btn-danger big3">Chest</button><br>
+      <button class="btn btn-danger big3">Legs</button>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+      <iframe class="img-responsive" style="width:100%" alt="video" src="https://www.youtube.com/embed/op9kVnSso6Q"></iframe>
+      <p>The Dead Lift</p>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+      <iframe class="img-responsive" style="width:100%" alt="video" src="https://www.youtube.com/embed/SCVCLChPQFY"></iframe>
+      <p>The Bench Press</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+    <div class="well">
+      <iframe class="img-responsive" style="width:100%" alt="video" src="https://www.youtube.com/embed/ultWZbUMPL8" ></iframe>
+      <p>The Back Squat</p>
+    </div>
+    </div>
+  </div>
+</div><br>
+
+<div id="about" class="container text-center">    
+  <h1 class="whatWeDo">What We Do</h1>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="well">
+        <h2>Strength</h2>
+      <img class="fitness-img" src="./static/images/strength.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="well">
+      <img class="fitness-img" src="./static/images/endurance.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <h2>Endurance</h2>
+      </div>
+    </div>
+    <div class="col-sm-3" >
+      <div class="well">
+          <h2>Flexibility</h2>   
+           <img class="fitness-img" src="./static/images/flexibility.jpg" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        </div>
+    <div class="col-sm-3">
+      <div class="well">
+            <img class="fitness-img" src="./static/images/balance.jpg" class="img-responsive" style="width:100%" alt="Image">
+          <h2>Balance</h2>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <hr>
+</div>
+
+<div id="testimonials" class="container text-center">    
+  <h1>Testimonials</h1>
+  <br>
+  <div class="row">
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quam veniam voluptatibus fugiat dolore modi ea quo quisquam placeat porro.</p>
+    </div>
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia maxime odio placeat delectus magni rem dolores recusandae! Doloribus, soluta.</p>    
+    </div>
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam eius in, ipsa eaque possimus temporibus aspernatur suscipit nemo modi?</p>
+    </div>
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatum dignissimos dolorum, est sapiente aperiam animi debitis exercitationem quia cupiditate.</p>
+    </div> 
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla labore ea ducimus vero qui fugiat ex distinctio quo modi!</p>
+    </div>     
+    <div class="col-sm-2"><i class="fas fa-quote-left"></i>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis numquam quia beatae laborum sequi dolores corporis doloribus magni delectus veniam.</p>
+    </div> 
+  </div>
+</div><br>
+ 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h5 class="modal-title text-danger" id="exampleModalCenterTitle">SUBSCRIBE TO OUR NEWSLETTER!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!-- FORM -->
+      <div class="modal-body">
+        <form action="https://formspree.io/f/mnqlyvpaw" method="POST">
+          <div class="form-group">
+            <label for="FirstName">First Name:</label>
+            <input name="FirstName" type="text" class="form-control" id="FirstName" placeholder="Enter First Name (required)" required>
+          </div>
+          <div class="form-group">
+            <label for="LastName">Last Name:</label>
+            <input name="LastName" type="text" class="form-control" id="LastName" placeholder="Enter Last Name (required)" required>
+          </div>
+          <div class="form-group">
+            <label for="Email">Email address:</label>
+            <input name="Email" type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter Email (required)" required>
+          </div>
+          <div class="form-group">
+            <label for="Phone">Phone Number:</label>
+            <input name="Phone" type="text" class="form-control" id="Phone" placeholder="Enter Phone Number (optional)">
+          </div>
+        
+          <div class="form-group form-check">
+            <input name="Terms" type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">I accept the Terms of Use & Privacy Policy</label>
+          </div>
+          <div class="form-group form-check">
+            <input name="Agree" type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">I agree to receiving emails</label>
+          </div>
+          <div class="modal-footer">
+            <small id="Help" class="form-text text-muted">Please fill out all required fields before submitting.</small>
+            <button name="Close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button name="Submit" type="submit" class="btn btn-danger">SUBSCRIBE!</button>
+          </div>
+        </form>
+      </div>
+      <!-- /FORM -->
+
+   
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- /NEWSLETTER -->
+
+<!-- BMI Calculator API -->
+<div id="bmi-calculator">
+<h1 class="text-primary">Calculate Your Beast Mass Index: <span class="under" >ARE YOU READY?!?</span>?!</h1>
+<h6 class="text-danger">Enter Your<span class="text-primary">BEAST MODE</span>info below and find your Beast Mode Index!</h6>
+<div id="form-container" class="container-fluid text-center">
+<!-- API INPUT -->
+<form id="bmi-form-popup" class="form-container">
+  <div class="form-row text-center">
+    <div class="col-sm">
+      <label for="weight">
+        <p>
+          <label>Weight(lbs)</label>
+          <input id="inputPounds" type="number" placeholder="Weight(lbs)"class="custom-select mr-sm-2 bg-light font-weight-bold"
+          oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+        </p>
+        <p>Kilograms:<span id="outputGrams"></span></p>
+      </label>
+      <label for="weight">
+        <p>
+          <label>Weight(lbs)</label>
+          <input id="inputPounds" type="number" placeholder="Weight(lbs)"class="custom-select mr-sm-2 bg-light font-weight-bold"
+          oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+        </p>
+        <p>Kilograms:<span id="outputGrams"></span></p>
+      </label>
+      <div class="col-sm" id="button-container">
+        <button type="button" id="btnAPI" class="btn btn-danger" onclick="printChoice()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </div>
+    </div>
+  </div>
+</form>
+<!-- /API INPUT -->
+</div>
+</div>
+</div>
+</div>                  
+<!-- /BMI CALCULATOR API -->
+
+<!-- BACK TO TOP -->
+<button id="topBtn" type="button" onclick="backToTop()">Back to Top</button>
+<!-- BACK TO TOP -->
+
+<!-- FOOTER -->
+<div class="ft-bg">
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+<p class="foottxt">Andrew Nally &nbsp;&nbsp;
+    Nally.Andrew@outlook.com</p>
+<p id="copy"></p>
+</div>
+</div>
+</div>
+</div>
+<!-- /FOOTER -->
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="static/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="./static/scripts.js"></script>
+</body>
+</html>
